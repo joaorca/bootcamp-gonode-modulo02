@@ -1,6 +1,6 @@
 module.exports = {
   dialect: 'postgres',
-  host: '127.0.0.1',
+  host: 'postgres',
   username: 'docker',
   password: 'docker',
   database: 'gonodemodule2',
