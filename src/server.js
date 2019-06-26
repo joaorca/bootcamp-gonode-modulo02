@@ -20,6 +20,7 @@ class App {
       store: new LokiStore({
         path: path.resolve(__dirname, '..', 'tmp', 'sessions.db')
       }),
+      name: 'root',
       secret: 'MyAppSecret',
       resave: false,
       saveUnitialize: true
