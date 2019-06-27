@@ -12,7 +12,6 @@ const SessionController = require('./app/controllers/SessionController')
 const DashboardController = require('./app/controllers/DashboardController')
 const FileController = require('./app/controllers/FileController')
 
-
 routes.use((req, res, next) => {
   res.locals.flashSuccess = req.flash('success')
   res.locals.flashError = req.flash('error')

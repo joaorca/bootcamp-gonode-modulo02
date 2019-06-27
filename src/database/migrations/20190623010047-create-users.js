@@ -38,7 +38,7 @@ module.exports = {
       updated_at: {
         allowNull: false,
         type: Sequelize.DATE
-      },
+      }
     })
   },
 
